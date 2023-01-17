@@ -1,0 +1,58 @@
+body{
+    background-color: #28282B;
+    text-align: center;
+    margin-bottom: 5000px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.my-name {
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    color: gray;
+}
+.Logo{
+    width: 5%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.divider{
+    width: 1750px;
+    background-color: #353539;
+    height: 1px;
+    display: inline-block;
+}
+.sub{
+    position: relative;
+    cursor: pointer;
+}
+.sub::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+.sub:hover::after{
+    opacity: 1;
+    bottom: -5px;
+}
+.shoe-image{
+    width: 150px;
+}

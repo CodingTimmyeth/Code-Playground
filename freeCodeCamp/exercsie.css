@@ -1,0 +1,49 @@
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.purchase{
+    font-weight: 700;
+    font-size: 21px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px 10px;
+}
+
+.sub-text{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#error{
+    color: red;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#apple-shelf{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+#orange-shelf{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+#box{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
